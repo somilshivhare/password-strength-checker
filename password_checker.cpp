@@ -101,7 +101,7 @@ int main(int argc, char* argv[]) {
     cout << "Enter password: ";
     getline(cin, password);
 
-    const size_t MAX_PASSWORD_LENGTH = 32; // Maximum allowed password length
+    const size_t MAX_PASSWORD_LENGTH = 32; 
     if (password.length() > MAX_PASSWORD_LENGTH) {
         cout << "This password exceeds the maximum allowed length of " << MAX_PASSWORD_LENGTH << " characters. Please choose a shorter password." << endl;
         return 1;
